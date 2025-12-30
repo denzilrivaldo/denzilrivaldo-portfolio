@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Project — Denzil Rivaldo Amalraj</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <b>Project</b>
+        <span>Details & figures</span>
+      </div>
+      <nav class="nav-links">
+        <a class="pill" id="back_home" href="index.html#projects-section">← Back</a>
+        <a class="pill" href="admin/">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="card block">
+        <div class="meta" id="p_date">—</div>
+        <h1 class="h1" style="font-size:34px; margin-top:6px" id="p_title">Project title</h1>
+        <p class="sub" id="p_summary">Project summary</p>
+        <div class="badges" id="p_tools"></div>
+        <hr class="sep" style="margin:16px 0"/>
+        <h2 style="margin:0 0 10px; font-size:18px">Engineering notes</h2>
+        <ul class="list" id="p_points"></ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Figures</h2>
+      <div class="card block">
+        <div id="p_gallery" class="gallery"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Denzil Rivaldo Amalraj
+    </footer>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script>
+    document.getElementById('year').textContent = String(new Date().getFullYear());
+    window.__initProject && window.__initProject();
+  </script>
+</body>
+</html>

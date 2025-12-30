@@ -1,0 +1,28 @@
+{
+  "CAD & Documentation": [
+    "SolidWorks (CSWA)",
+    "Autodesk Inventor",
+    "NX",
+    "AutoCAD",
+    "Creo",
+    "CATIA V5"
+  ],
+  "Simulation & FEA": [
+    "ANSYS Mechanical",
+    "Basic MATLAB & Simulink"
+  ],
+  "Design Expertise": [
+    "BIW Fixtures",
+    "Reverse Engineering",
+    "GD&T (ASME Y14.5)",
+    "Tolerance Stack-ups",
+    "Design for Manufacturing"
+  ],
+  "Tools & Platforms": [
+    "Teamcenter",
+    "MakerBot",
+    "PrusaSlicer",
+    "Meshmixer",
+    "Microsoft Office"
+  ]
+}
