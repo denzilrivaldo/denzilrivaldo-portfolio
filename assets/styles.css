@@ -72,14 +72,11 @@ a:hover{color:var(--accent)}
   background:rgba(11,15,23,.35);
 }
 .side-card{padding:18px; display:flex; flex-direction:column; gap:12px}
-.avatar{
+.avatar img{
   width:100%;
-  aspect-ratio:1/1;
+  height:100%;
+  object-fit:cover;
   border-radius:16px;
-  border:1px dashed rgba(232,238,252,.22);
-  display:flex; align-items:center; justify-content:center;
-  color:var(--muted);
-  background:rgba(11,15,23,.35);
 }
 .small{font-size:13px; color:var(--muted)}
 .section{padding:18px 0}
