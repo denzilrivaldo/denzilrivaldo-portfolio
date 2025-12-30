@@ -3,7 +3,7 @@
     {
       "slug": "anydesk-storage-organizer",
       "title": "AnyDesk Storage Organizer",
-      "date": "Sep 2024 \u2013 Dec 2024",
+      "date": "Sep 2024 – Dec 2024",
       "tools": [
         "SolidWorks",
         "DFM",
@@ -18,13 +18,17 @@
         "Optimized print orientation and slicing strategy to reduce support usage.",
         "Fabricated, assembled (epoxy-based), and tested the final prototype with strong dimensional accuracy and finish quality."
       ],
-      "images": [],
+      "images": [
+        "/assets/img/screenshot-2024-12-17-192428.png",
+        "/assets/img/any-desk-organizer.jpeg",
+        "/assets/img/picture1.png"
+      ],
       "figure_captions": []
     },
     {
       "slug": "ford-ranger-torsion-bar-fea",
       "title": "Analysis on Ford Ranger Torsion Bar",
-      "date": "Jan 2025 \u2013 Apr 2025",
+      "date": "Jan 2025 – Apr 2025",
       "tools": [
         "SolidWorks",
         "ANSYS Workbench",
@@ -38,7 +42,10 @@
         "Identified critical regions using von Mises stress and total deformation results.",
         "Applied a mesh convergence strategy to validate stability across element refinements."
       ],
-      "images": [],
+      "images": [
+        "/assets/img/screenshot-2025-04-11-184659.png",
+        "/assets/img/stress-3mm.png"
+      ],
       "figure_captions": []
     }
   ]
